@@ -1,0 +1,125 @@
+.servicesPage_container{
+    width: 100%;
+    padding: 50px 0;
+    background-image: radial-gradient( circle 674px at 18.3% 77%,  rgba(139,186,244,1) 3.4%, rgba(15,51,92,1) 56.6% );
+    .servicesPage_heading{
+        width: 100%;
+        text-align: center;
+        h2{
+            font-size: 35px;
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
+            color: white;
+            text-shadow: 2px 2px darkgray;
+        }
+    }
+    .servicesPage_card_container_upper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        .ant-card{
+            background: transparent;
+        }
+        .ant-card-body{
+            border: 2px solid #fd7e14;
+            border-radius: 8px;
+        }
+        .servicesPage_card_icon_container{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 13px;
+            .servicesPage_card_icon_background{
+                height: 50px;
+                width: 50px;
+                background-color: #fd7e14;
+                opacity: 0.4;
+                border-radius: 50%;
+                position: relative;
+            }
+            .anticon{
+                position: absolute;
+                font-size: 25px;
+                margin-top: 12px;
+                color: white;
+            }
+        }
+        .servicesPage_card_heading{
+            width: 100%;
+            text-align: center;
+            p{
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                font-size: 25px;
+                margin-bottom: 0.5em;
+                color: white;
+            }
+        }
+        .servicesPage_card_paragraph{
+            width: 100%;
+            text-align: center;
+            p{
+                font-weight: 300;
+                font-size: 15px;
+                font-family: 'Poppins', sans-serif;
+                margin-bottom: 0;
+                color: white;
+            }
+        }
+    }
+    .servicesPage_card_container_lower{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 25px;
+        .ant-card{
+            background: transparent;
+        }
+        .ant-card-body{
+            border: 2px solid #fd7e14;
+            border-radius: 8px;
+        }
+        .servicesPage_card_icon_container{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 13px;
+            .servicesPage_card_icon_background{
+                height: 50px;
+                width: 50px;
+                background-color: #fd7e14;
+                opacity: 0.4;
+                border-radius: 50%;
+                position: relative;
+            }
+            .anticon{
+                position: absolute;
+                font-size: 25px;
+                margin-top: 12px;
+                color: white;
+            }
+        }
+        .servicesPage_card_heading{
+            width: 100%;
+            text-align: center;
+            p{
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                font-size: 25px;
+                margin-bottom: 0.5em;
+                color: white;
+            }
+        }
+        .servicesPage_card_paragraph{
+            width: 100%;
+            text-align: center;
+            p{
+                font-weight: 300;
+                font-size: 15px;
+                font-family: 'Poppins', sans-serif;
+                margin-bottom: 0;
+                color: white;
+            }
+        }
+    }
+}
