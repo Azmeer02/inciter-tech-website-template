@@ -5,7 +5,24 @@ const NavigationBar = () => {
   return (
     <div className="navigation_container">
       <div className="navigation_list">
-        <ul>
+        <div>
+          <Link href="/" >
+            Home
+          </Link>
+          <Link href="/services" >
+            Services
+          </Link>
+        </div>
+        <span><img src="/assets/logo02.png" alt="logo" /></span>
+        <div>
+          <Link href="/" >
+            Testimonials
+          </Link>
+          <Link href="/" >
+            Contact Us
+          </Link>
+        </div>
+        {/* <ul>
           <Link href="/" style={{ textDecoration: "none" }}>
             <li>Home</li>
           </Link>
@@ -17,7 +34,7 @@ const NavigationBar = () => {
           </li>
           <li>Testimonials</li>
           <li>Contact Us</li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
