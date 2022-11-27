@@ -1,0 +1,40 @@
+.header_container{
+    width: 100%;
+    .header_carousel_container{
+        .header_slides{
+            position: relative;
+            background: #000;
+            width: 100%;
+            height: 100vh;
+            img{
+                width: 100%;
+                height: 100%;
+                opacity: 0.6;
+            }
+            .header_carousel_content{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    color: white;
+                    margin: 0;
+                    font-family: 'DM Serif Display', serif;
+                    font-size: 60px;
+                }
+                p{
+                    width: 75%;
+                    text-align: center;
+                    color: lightgray;
+                    margin: 0;
+                    font-family: 'PT Serif', serif;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

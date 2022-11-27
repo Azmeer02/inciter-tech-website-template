@@ -1,0 +1,121 @@
+.services_container{
+    width: 100%;
+    animation: changeBg 5s infinite alternate linear;
+    padding: 0 0 50px 0;
+    @keyframes changeBg {
+        0%{
+            background: #0d76ad;
+        }
+        25%{
+            background: #aed9e2;
+        }
+        50%{
+          background: #80d3e5;  
+        }
+        75%{
+            background: #1f92be;
+        }
+        100%{
+            background: #08679f;
+        }
+    }
+    .services_heading{
+        width: 100%;
+        text-align: center;
+        h2{
+            font-size: 35px;
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
+            text-shadow: 2px 2px lightgrey;
+        }
+    }
+    .services_card_container_upper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        .services_card_icon_container{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 13px;
+            .services_card_icon_background{
+                height: 50px;
+                width: 50px;
+                background-color: #fd7e14;
+                opacity: 0.4;
+                border-radius: 50%;
+                position: relative;
+            }
+            .anticon{
+                position: absolute;
+                font-size: 25px;
+                margin-top: 12px;
+            }
+        }
+        .services_card_heading{
+            width: 100%;
+            text-align: center;
+            p{
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                font-size: 25px;
+                margin-bottom: 0.5em;
+            }
+        }
+        .services_card_paragraph{
+            width: 100%;
+            text-align: center;
+            p{
+                font-weight: 300;
+                font-size: 15px;
+                font-family: 'Poppins', sans-serif;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .services_card_container_lower{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 25px;
+        .services_card_icon_container{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 13px;
+            .services_card_icon_background{
+                height: 50px;
+                width: 50px;
+                background-color: #fd7e14;
+                opacity: 0.4;
+                border-radius: 50%;
+                position: relative;
+            }
+            .anticon{
+                position: absolute;
+                font-size: 25px;
+                margin-top: 12px;
+            }
+        }
+        .services_card_heading{
+            width: 100%;
+            text-align: center;
+            p{
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                font-size: 25px;
+                margin-bottom: 0.5em;
+            }
+        }
+        .services_card_paragraph{
+            width: 100%;
+            text-align: center;
+            p{
+                font-weight: 300;
+                font-size: 15px;
+                font-family: 'Poppins', sans-serif;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
