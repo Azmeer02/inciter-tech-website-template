@@ -6,21 +6,15 @@ const NavigationBar = () => {
     <div className="navigation_container">
       <div className="navigation_list">
         <div>
-          <Link href="/" >
-            Home
-          </Link>
-          <Link href="/services" >
-            Services
-          </Link>
+          <Link href="/">Home</Link>
+          <Link href="/services">Services</Link>
         </div>
-        <span><img src="/assets/logo02.png" alt="logo" /></span>
+        <span>
+          <img src="/assets/logo02.png" alt="logo" />
+        </span>
         <div>
-          <Link href="/" >
-            Testimonials
-          </Link>
-          <Link href="/" >
-            Contact Us
-          </Link>
+          <Link href="/testimonials">Testimonials</Link>
+          <Link href="/contact-us">Contact Us</Link>
         </div>
         {/* <ul>
           <Link href="/" style={{ textDecoration: "none" }}>

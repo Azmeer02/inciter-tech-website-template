@@ -9,7 +9,7 @@ import {
 const Footer = () => {
   return (
     <div className="footer_container">
-      {/* <div className="footer_image_container">
+      <div className="footer_image_container">
         <div className="footer_background"></div>
         <div className="footer_content_container">
           <div className="footer_logo_container">
@@ -19,18 +19,21 @@ const Footer = () => {
               <GithubOutlined />
               <FacebookOutlined />
               <WhatsAppOutlined />
-              </div>
-              </div>
-              </div>
-            </div> */}
-      <img src="/assets/logo02.png" alt="Footer Logo" />
-      <div className="footer_social_icon">
-        <LinkedinOutlined />
-        <GithubOutlined />
-        <FacebookOutlined />
-        <WhatsAppOutlined />
-
+            </div>
+          </div>
+        </div>
       </div>
+      {/* <div className="footer_image_container">
+        <div className="footer_background">
+          <img src="/assets/logo02.png" alt="Footer Logo" />
+        </div>
+        <div className="footer_social_icon">
+          <LinkedinOutlined />
+          <GithubOutlined />
+          <FacebookOutlined />
+          <WhatsAppOutlined />
+        </div>
+      </div> */}
     </div>
   );
 };

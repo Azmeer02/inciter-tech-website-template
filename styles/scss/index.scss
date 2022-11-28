@@ -1,15 +1,17 @@
 // Globals
 
-@import './global/globals.scss';
+@import "./global/globals.scss";
+@import "./global/mixins.scss";
 
 // Components
-
-@import './components/header.scss';
-@import './components/navbar.scss';
-@import './components/expertees.scss';
-@import './components/services.scss';
-@import './components/footer.scss';
+@import "./components/header.scss";
+@import "./components/navbar.scss";
+@import "./components/expertees.scss";
+@import "./components/services.scss";
+@import "./components/footer.scss";
 
 // Pages
 
-@import './components/servicePage.scss'
+@import "./components/servicePage.scss";
+@import "./components/testimonials.scss";
+@import "./components/contact-us.scss";
